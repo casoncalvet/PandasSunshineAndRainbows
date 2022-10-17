@@ -165,7 +165,7 @@ plt.savefig('FvsNStackedBar.png',bbox_inches="tight")
 ```
 
 ### Top 10 Offenders
-![This is an image](../images/FvsNStackedBar.png) 
+![This is an image](../PandasSunshineAndRainbows/images/FvsNStackedBar.png) 
 
 ## Creation of Fatal vs NonFatal Incidents Table
 #### (for later use in Donut Chart)
