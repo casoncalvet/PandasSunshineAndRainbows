@@ -105,7 +105,7 @@ nonfatal_species_counts= nonfatal.groupby(['Species']).count()
 ```
 
 # Visualize Shark Attacks by Species 
-<iframe src="https://giphy.com/embed/Rfex2rSEpNFZ1GdtPl" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/sharkweek-Rfex2rSEpNFZ1GdtPl">via GIPHY</a></p>
+![This is an image](./images/mirror.gif)
 
 ### Creating a Frequency Table of all Incidents, Organized by Species
 
@@ -149,7 +149,7 @@ dfi.export(df_styled,"SharkFrequency.png")
 
 ```
 ## Incident Frequency Table 
-![This is an image](../PandasSunshineAndRainbows/images/SharkFrequency.png)
+![This is an image](./images/SharkFrequency.png)
 ## Visualize Table: Create stacked barplot for Species Incidents 
 ``` python 
 #Create Stacked Barplot
@@ -165,7 +165,7 @@ plt.savefig('FvsNStackedBar.png',bbox_inches="tight")
 ```
 
 ### Top 10 Offenders
-![This is an image](../PandasSunshineAndRainbows/images/FvsNStackedBar.png) 
+![This is an image](./images/FvsNStackedBar.png) 
 
 ## Creation of Fatal vs NonFatal Incidents Table
 #### (for later use in Donut Chart)
@@ -189,7 +189,7 @@ FvsN10_styled = FvsN10.style.background_gradient()
 ```
 ## Reported Incidents per Species (Top 10)
 #####  *(These are the sharks to worry about)*
-![This is an image](../PandasSunshineAndRainbows/images/FatalvsNonFatalAttacks.png)
+![This is an image](./images/FatalvsNonFatalAttacks.png)
 
 
 ## Creating Donut Chart
@@ -224,11 +224,12 @@ def DonutChart():
 DonutChart()
 ``` 
 ### All Offenders (Fatal and NonFatal)
-![This is an image](../PandasSunshineAndRainbows/images/DonutChart.png) 
-#### Great White Sharks, Tiger Sharks, and Bull Sharks are responsible for 50% of all incidents. 
+![This is an image](./images/DonutChart.png) 
+#### Great White Sharks, Tiger Sharks, and Bull Sharks are responsible for over 50% of all incidents. 
 
 ## So, who's responsible for the fatalities? 
-<iframe src="https://giphy.com/embed/3owypntx89D6RRur7y" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/syfy-sharknado-4-the-4th-awakens-3owypntx89D6RRur7y">via GIPHY</a></p>
+![This is an image](./images/sharkattack.gif) 
+
 
 # Create Donut Chart of Fatal Suspects
 ``` python 
@@ -265,7 +266,7 @@ def DonutChart2():
 return plt.show()
 ```
 #### Great White Sharks are responsible for over 50% of fatal attacks! 
-![This is an image](../PandasSunshineAndRainbows/images/DonutChart2.png) 
+![This is an image](./images/DonutChart2.png) 
 
 ## This graphic is scary!
 
@@ -284,9 +285,10 @@ Proportion_Fatal_styled = Proportion_Fatal.style.background_gradient()
 dfi.export(Proportion_Fatal_styled,"FatalvsNonFatalProportions.png")
 ```
 
-![This is an image](../PandasSunshineAndRainbows/images/FatalvsNonFatalProportions.png) 
+![This is an image](./images/FatalvsNonFatalProportions.png) 
 #### Don't worry! Only about 16% of reported (measurable) incidents were fatal! 
 
-<iframe src="https://giphy.com/embed/SShJcu4ySty1G6MX9A" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/echilibrultau-emoji-emoticon-emojis-SShJcu4ySty1G6MX9A">via GIPHY</a></p>
+![](./images/giphy.gif)
+
 
 #### And if you're in doubt, just avoid areas with great whites, bull sharks, or tiger sharks. 
